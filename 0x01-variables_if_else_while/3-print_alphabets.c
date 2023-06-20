@@ -5,11 +5,9 @@
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
-
- char alph[52] ="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"	
+ char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";	
 	 int i;
          
         for (i = 0; i < 52; i++)
@@ -18,5 +16,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }
