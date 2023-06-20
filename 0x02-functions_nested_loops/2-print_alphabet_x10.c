@@ -1,18 +1,21 @@
 #include "main.h"
 
 /**
- * Print_alphabet - Entity point
- * Return: 0
+ * print_alphabet_x10 - make alphabet x10 times
+ * Return: void
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char c = 'a';
+	char
+	int i = 0;
 
-	while (c <= 'z');
+	while (i <= 9);
 	{
-		_putchar(c);
-		c++;
+	for (c = 'a'; c <= 'z'; c++)
+	{
+	_putchar(c);
 	}
 	_putchar('\n');
+	}
 }	
