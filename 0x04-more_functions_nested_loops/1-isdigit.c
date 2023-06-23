@@ -1,14 +1,15 @@
 #include "main.h"
-#include <ctype.h>
 
 
 /**
  * main - write to check for a digit
  *
- * Return: Always 0.
+ * Return: Always 0
 
-int _isdigit(int c)
+ int _isdit(int c))
+
 {
+
    char c  = '6';
    if (isdigit (c))
    {
